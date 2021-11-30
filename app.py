@@ -29,7 +29,7 @@ def index_post():
         original_text = request.form['word']
         target_language = "ru"
         print(original_text)
-        key = "93cee1d75af34bd4a6b81c1f486089b5"
+        key = ""
         endpoint = "https://api.cognitive.microsofttranslator.com/"
         location = "germanywestcentral"
 
